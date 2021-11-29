@@ -1,4 +1,9 @@
-// copy any text to the clipboard
+
+/**
+ * Function to copy any text to the clipboard
+ * @param {string} text
+ * @returns {string}
+ */
 const copyToClipboard = (text) => navigator.clipboard.writeText(text);
 
 // Scroll to Page Top
